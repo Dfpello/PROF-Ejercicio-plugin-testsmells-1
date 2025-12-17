@@ -60,11 +60,11 @@
 			<plugin>
                 <groupId>com.github.Dfpello</groupId>
                 <artifactId>test-smell-analyzer-plugin-dfp</artifactId>
-                <version>v1.0.0</version>
+                <version>v1.0.3</version>
                 <executions>
                     <execution>
                         <id>test-smell-analysis</id>
-                        <phase>verify</phase> 
+                        <phase>test</phase> 
                         <goals>
                             <goal>list-smells</goal> 
                         </goals>
