@@ -50,6 +50,20 @@
 				<version>2.22.0</version>
 			</plugin>
 
+			<plugin>
+                <groupId>com.github.Dfpello</groupId>
+                <artifactId>PIS-tsDetect-DFP</artifactId>
+                <version>1.0</version>
+                <executions>
+                    <execution>
+                        <id>test-smell-analysis</id>
+                        <phase>verify</phase> 
+                        <goals>
+                            <goal>list-smells</goal> 
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
 		</plugins>
 	</build>
 
