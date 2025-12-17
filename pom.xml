@@ -13,6 +13,13 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+	<pluginRepositories>
+		<pluginRepository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</pluginRepository>
+	</pluginRepositories>
+
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
 		<dependency>
@@ -52,8 +59,8 @@
 
 			<plugin>
                 <groupId>com.github.Dfpello</groupId>
-                <artifactId>PIS-tsDetect-DFP</artifactId>
-                <version>1.0</version>
+                <artifactId>test-smell-analyzer-plugin-dfp</artifactId>
+                <version>v1.0.0</version>
                 <executions>
                     <execution>
                         <id>test-smell-analysis</id>
